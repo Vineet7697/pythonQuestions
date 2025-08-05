@@ -8,5 +8,5 @@ for i in prices:
         min_price = i  # Buy at lowest price so far
     elif i - min_price > max_profit:
         max_profit = i - min_price  # Sell at highest profit
-
+ 
 print("Maximum Profit:", max_profit)
